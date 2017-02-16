@@ -4,7 +4,7 @@
 
 using namespace std;
 
-static bool invcomp(int a, int b)
+static bool invcomp(long int a, long int b)
 {
     return a > b;
 }
@@ -16,19 +16,19 @@ int main()
     cin >> t;
 
     for (unsigned c = 0; c < t; c ++) {
-        vector<int> x, y;
+        vector<long int> x, y;
         unsigned n;
 
         cin >> n;
 
         for (unsigned j = 0; j < n; j ++) {
-            int u;
+            long int u;
             cin >> u;
             x.push_back(u);
         }
 
         for (unsigned j = 0; j < n; j ++) {
-            int u;
+            long int u;
             cin >> u;
             y.push_back(u);
         }
